@@ -1,10 +1,5 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PETITION: Stand for the Family International Petition | fwipetitions.org</title>
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-92EJWHPRB9"></script>
     <script>
@@ -15,8 +10,27 @@
     gtag('config', 'G-92EJWHPRB9');
     </script>
 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETITION: Stand for the Family International Petition | fwipetitions.org</title>
+
     <script>
-        location.replace('https://fwipetitions.org/stand-for-the-family/');
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'G-92EJWHPRB9']);
+        _gaq.push(['_trackPageview']);
+        _gaq.push(function() {
+            setTimeout(function() {
+                window.location = "https://fwipetitions.org/stand-for-the-family/";
+            }, 250);
+        });
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        // location.replace('https://fwipetitions.org/stand-for-the-family/');
     </script>
 </head>
 <body>
